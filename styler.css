@@ -12,5 +12,13 @@ body , #bloc , #bloc * {
 #bloc {
   min-height: 100vh;
   border: 10px solid black;
-  background-color: rgb(195,195,195);  
+  background-color: rgb(195,195,195);
+  display: grid;
+  grid-template-rows: 1fr 550px 1fr;
+}
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
